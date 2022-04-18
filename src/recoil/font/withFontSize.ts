@@ -10,3 +10,5 @@ const fontSizeLabelState = selector({
         return `${fontSize}${unit}`;
     },
 });
+
+export default fontSizeLabelState
