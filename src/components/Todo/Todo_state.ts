@@ -1,7 +1,7 @@
 import {atom, selector} from 'recoil';
 import {TItem} from './Todo_types';
 
-export const todoListState = atom({
+export const todoListState = atom<TItem[]>({
   key: 'todoListState',
   default: [],
 });
