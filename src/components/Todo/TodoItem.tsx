@@ -14,6 +14,7 @@ export const TodoItem = ({item, index}: {item: TItem; index: number}) => {
       ...item,
       text: value,
     });
+    console.log('aa');
 
     setTodoList(newList);
   };
@@ -46,10 +47,10 @@ export const TodoItem = ({item, index}: {item: TItem; index: number}) => {
   );
 };
 
-function replaceItemAtIndex(arr, index, newValue) {
+function replaceItemAtIndex(arr: TItem[], index: number, newValue: TItem) {
   return [...arr.slice(0, index), newValue, ...arr.slice(index + 1)];
 }
 
-function removeItemAtIndex(arr, index) {
+function removeItemAtIndex(arr: TItem[], index: number) {
   return [...arr.slice(0, index), ...arr.slice(index + 1)];
 }

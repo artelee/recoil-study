@@ -1958,7 +1958,7 @@
   dependencies:
     "@typescript-eslint/utils" "5.20.0"
 
-"@typescript-eslint/parser@^5.5.0":
+"@typescript-eslint/parser@^5.20.0", "@typescript-eslint/parser@^5.5.0":
   version "5.20.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.20.0.tgz#4991c4ee0344315c2afc2a62f156565f689c8d0b"
   integrity sha512-UWKibrCZQCYvobmu3/N8TWbEeo/EPQbS41Ux1F9XqPzGuV7pfg6n50ZrFo6hryynD8qOTTfLHtHjjdQtxJ0h/w==
@@ -3747,6 +3747,11 @@ eslint-module-utils@^2.7.3:
     debug "^3.2.7"
     find-up "^2.1.0"
 
+eslint-plugin-fb-www@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-fb-www/-/eslint-plugin-fb-www-1.8.0.tgz#0d1b410e7c8da604f380245c58160fd5c42ddaea"
+  integrity sha512-3lUKYRFp8XUzf/qVLG56f5PC2zWkkyWwc/kuLcm0JDow48VjVaJU06f9cCAtkRtbum4T9G6VXsjO+dWi9Eqn2w==
+
 eslint-plugin-flowtype@^8.0.3:
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-8.0.3.tgz#e1557e37118f24734aa3122e7536a038d34a4912"
@@ -3823,6 +3828,11 @@ eslint-plugin-react@^7.27.1:
     resolve "^2.0.0-next.3"
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
+
+eslint-plugin-rulesdir@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-rulesdir/-/eslint-plugin-rulesdir-0.2.1.tgz#e246bb9657e68eb0a30680c60775f40aa829ec0b"
+  integrity sha512-t7rQvEyfE4JZJu6dPl4/uVr6Fr0fxopBhzVbtq3isfOHMKdlIe9xW/5CtIaWZI0E1U+wzAk0lEnZC8laCD5YLA==
 
 eslint-plugin-testing-library@^5.0.1:
   version "5.3.1"
@@ -4473,6 +4483,27 @@ he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+
+hermes-eslint@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/hermes-eslint/-/hermes-eslint-0.7.0.tgz#e8db5e3dd73dc20eca8ede1973d3b2f999e3451c"
+  integrity sha512-Ldl61HKAMdvtySA+uCHakV7cVy3d410MojXH51Mpo0jx+S/OrChciKS2IrIQgtbhGX5iZRwIgztgaDolsNYsSA==
+  dependencies:
+    esrecurse "^4.3.0"
+    hermes-estree "0.7.0"
+    hermes-parser "0.7.0"
+
+hermes-estree@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/hermes-estree/-/hermes-estree-0.7.0.tgz#b58f1f89a52776d3ec992f8674b8e08dc30ffa89"
+  integrity sha512-LYALD+3v7gkrP+ljDR87lUdIXxT6u41DA4Zoeleb6YGnRXIZIjQHtI5Zk6uCRS4qxgXIacjOHZ9n6aIk1eHHCQ==
+
+hermes-parser@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/hermes-parser/-/hermes-parser-0.7.0.tgz#421ba47981e680478bfd9b87434e2f3f80578ebc"
+  integrity sha512-f+zdIYAYO6K9FmRqI4AQ9S0AL4DUvEhRhcTBedsFebSa5Io3OAhh4crbMMX7GDgSE00ZlRDsebc/YYHV6IJD4g==
+  dependencies:
+    hermes-estree "0.7.0"
 
 hoopy@^0.1.4:
   version "0.1.4"

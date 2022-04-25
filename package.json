@@ -10,6 +10,9 @@
     "@types/node": "^16.11.27",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
+    "eslint-plugin-fb-www": "^1.8.0",
+    "eslint-plugin-rulesdir": "^0.2.1",
+    "hermes-eslint": "^0.7.0",
     "prettier": "^2.6.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -41,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.20.0"
   }
 }
